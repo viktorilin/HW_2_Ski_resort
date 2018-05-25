@@ -1,0 +1,35 @@
+label{
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+}
+div{
+    padding: 3px;
+}
+.radioGroup,#bornDate{
+    padding: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea,input[type=password] {
+    padding: 12px; /* Some padding */
+    border: 1px solid #b8ccaa; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.datePicker{
+    width: 100%;
+}
+
